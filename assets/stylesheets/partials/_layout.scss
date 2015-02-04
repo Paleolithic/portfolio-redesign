@@ -1,0 +1,27 @@
+header{
+	background-color: #012340;
+	
+	nav{
+		@include outer-container;
+		position: relative;
+		padding: 7px inherit;
+		color: white;
+		// height: 91px;		
+	}
+
+	h1, ul{
+		@include span-columns(6);
+		// position: absolute;
+		// margin-top: 50%;
+		// @include transform(translateY(-50%));
+	}
+
+	ul{
+		vertical-align: middle;
+		line-height: 28px;
+	}
+
+	li{
+		display: inline;
+	}
+}

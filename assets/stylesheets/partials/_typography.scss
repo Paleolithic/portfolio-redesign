@@ -1,0 +1,39 @@
+h1, h2, h3, h4, h5, h6 {
+	color: $headingColor;
+	font: {
+		family: $headingFamily;
+		weight: normal;
+	}
+}
+h1, h2, h3,
+h4, h5, h6 {
+	a { font-weight: inherit; }
+}
+h1 {
+	font-size: round($fontSize * 3.8333);
+	line-height: round($fontSize * 4.1666);
+	margin-bottom: round($fontSize * 1.1666);
+}
+h2 {
+	font-size: round($fontSize * 2.9166);
+	line-height: round($fontSize * 3.333);
+	margin-bottom: round($fontSize * 0.833);
+}
+h3 {
+	font-size: round($fontSize * 2.333);
+	line-height: round($fontSize * 2.833);
+	margin-bottom: round($fontSize * 0.666);
+}
+h4 {
+	font-size: round($fontSize * 1.75);
+	line-height: round($fontSize * 2.5);
+	margin-bottom: round($fontSize * 0.333);
+}
+h5 {
+	font-size: round($fontSize * 1.4166);
+	line-height: $fontSize * 2;
+}
+h6 {
+	font-size: round($fontSize * 1.1666);
+	line-height: round($fontSize * 1.75);
+}
